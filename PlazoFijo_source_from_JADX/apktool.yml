@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: PlazoFijo.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '8'
+  targetSdkVersion: '19'
+sharedLibrary: false
+unknownFiles:
+  org/achartengine/image/zoom-1.png: '8'
+  org/achartengine/image/zoom_in.png: '8'
+  org/achartengine/image/zoom_out.png: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

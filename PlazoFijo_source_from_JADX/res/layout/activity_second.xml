@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:id="@id/ScrollView12" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+        <TableLayout android:id="@id/table1" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:stretchColumns="*" android:shrinkColumns="*" />
+    </ScrollView>
+</FrameLayout>

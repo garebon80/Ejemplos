@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ScrollView11" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/container" android:paddingTop="30dp" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:gravity="11" android:id="@id/textView1" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/initial_amount_label" />
+        <EditText android:gravity="5" android:id="@id/editText1" android:layout_width="126dp" android:layout_height="-2" android:ems="10" android:inputType="2002">
+            <requestFocus />
+        </EditText>
+        <TextView android:id="@id/textView2" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/monthly_savings_label" />
+        <EditText android:gravity="5" android:id="@id/editText2" android:layout_width="126dp" android:layout_height="-2" android:ems="10" android:inputType="2002">
+            <requestFocus />
+        </EditText>
+        <TextView android:id="@id/textView3" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/porcentage_of_interest_label" />
+        <Spinner android:gravity="11" android:id="@id/spinner1" android:layout_width="78dp" android:layout_height="-2" />
+        <TextView android:id="@id/textView4" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/number_of_months_label" />
+        <Spinner android:id="@id/spinner2" android:layout_width="78dp" android:layout_height="-2" />
+        <TextView android:id="@id/textView5" android:paddingLeft="3dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/dollar_value_label" />
+        <Spinner android:id="@id/spinner3" android:layout_width="78dp" android:layout_height="-2" />
+        <RelativeLayout android:gravity="11" android:id="@id/rl_country_heading" android:layout_width="-1" android:layout_height="-2">
+            <Button android:id="@id/button1" android:layout_width="-2" android:layout_height="-2" android:text="@string/button_label_calculate" android:onClick="onClick" style="?unknown_attr_ref: 1010049" />
+            <Button android:id="@id/button2" android:layout_width="-2" android:layout_height="-2" android:text="@string/button_label_graphic" android:layout_toRightOf="@id/button1" android:onClick="onClick" style="?unknown_attr_ref: 1010049" />
+            <Button android:id="@id/button3" android:layout_width="-2" android:layout_height="-2" android:text="@string/button_label_clear" android:layout_toRightOf="@id/button2" android:onClick="onClick" style="?unknown_attr_ref: 1010049" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
