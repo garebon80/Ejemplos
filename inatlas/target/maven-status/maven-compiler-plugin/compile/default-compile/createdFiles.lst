@@ -1,0 +1,5 @@
+com\inatlas\models\AddressDao.class
+com\inatlas\controllers\AddressController.class
+com\inatlas\configs\DatabaseConfig.class
+com\inatlas\models\Address.class
+com\inatlas\Application.class
